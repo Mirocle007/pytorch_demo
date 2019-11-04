@@ -108,6 +108,10 @@ class ClassifierModel(object):
             可为: 'mnasnet0_5', 'mnasnet0_75', 'mnasnet1_0', 'mnasnet1_3'
 
             """
+            if model_name == "mnasnet1_3" and pretrained:
+                print("No checkpoint is available for model type mnasnet1_3")
+                print("change the method to 'BL'")
+                pretrained = False
             self.model = eval("models.{}({})".format(model_name, pretrained))
             if method == "TF":
                 for param in self.model.parameters():
@@ -178,6 +182,7 @@ class ClassifierModel(object):
             sys.exit("Invalid model name, exiting...")
         print("model loaded.")
 
+
 # You can define by yourself
 class SeflNet(nn.Module):
     def __init__(self, class_num):
@@ -238,7 +243,7 @@ if __name__ == "__main__":
         img = torch.randn(batch, 3, model.input_size, model.input_size)
         print(f"input size: {img.size()}")
         output = model.model(img)
-        if model_name == "googlenet":
+        if model_name in ["googlenet", 'inception_v3']:
             print(f"output size: {[o.size() for o in output]}")
         else:
             print(f"output size: {output.size()}")

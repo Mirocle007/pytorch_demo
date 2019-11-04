@@ -123,14 +123,6 @@ dmypy.json
 .idea
 .vscode
 
-media/
-settings.py*
-static/
 !*/static/
-migrations/
-model_class.txt
-identify/models_data/
 
-# pre-train model
-*.pth
-
+*.out
