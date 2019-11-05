@@ -1,0 +1,98 @@
+{
+    "train": [
+        {
+            "imgid": 157464,
+            "path": "./data/157464.jpg",
+            "category": "007",
+            "type": "TEST"
+        },
+        {
+            "imgid": 132940,
+            "path": "./data/132940.jpg",
+            "category": "001",
+            "type": "TEST"
+        },
+        {
+            "imgid": 6720,
+            "path": "./data/6720.jpg",
+            "category": "000",
+            "type": "TEST"
+        },
+        {
+            "imgid": 140071,
+            "path": "./data/140071.jpg",
+            "category": "007",
+            "type": "TEST"
+        },
+        {
+            "imgid": 153248,
+            "path": "./data/153248.jpg",
+            "category": "007",
+            "type": "TEST"
+        }
+    ],
+    "val": [
+        {
+            "imgid": 79379,
+            "path": "./data/79379.jpg",
+            "category": "006",
+            "type": "TEST"
+        },
+        {
+            "imgid": 141338,
+            "path": "./data/141338.jpg",
+            "category": "007",
+            "type": "TEST"
+        },
+        {
+            "imgid": 128798,
+            "path": "./data/128798.jpg",
+            "category": "001",
+            "type": "TEST"
+        },
+        {
+            "imgid": 140706,
+            "path": "./data/140706.jpg",
+            "category": "007",
+            "type": "TEST"
+        },
+        {
+            "imgid": 47963,
+            "path": "./data/47963.jpg",
+            "category": "004",
+            "type": "TEST"
+        }
+    ],
+    "test": [
+        {
+            "imgid": 7934,
+            "path": "./data/7934.jpg",
+            "category": "000",
+            "type": "TEST"
+        },
+        {
+            "imgid": 143397,
+            "path": "./data/143397.jpg",
+            "category": "007",
+            "type": "TEST"
+        },
+        {
+            "imgid": 118202,
+            "path": "./data/118202.jpg",
+            "category": "002",
+            "type": "TEST"
+        },
+        {
+            "imgid": 101878,
+            "path": "./data/101878.jpg",
+            "category": "002",
+            "type": "TEST"
+        },
+        {
+            "imgid": 45408,
+            "path": "./data/45408.jpg",
+            "category": "004",
+            "type": "TEST"
+        }
+    ]
+}
